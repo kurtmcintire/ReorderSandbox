@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF84624A1FB4F67000482FE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8462491FB4F67000482FE4 /* AppDelegate.swift */; };
+		BF84624C1FB4F67000482FE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84624B1FB4F67000482FE4 /* ViewController.swift */; };
+		BF84624F1FB4F67000482FE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF84624D1FB4F67000482FE4 /* Main.storyboard */; };
+		BF8462511FB4F67000482FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8462501FB4F67000482FE4 /* Assets.xcassets */; };
+		BF8462541FB4F67000482FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8462521FB4F67000482FE4 /* LaunchScreen.storyboard */; };
+		BF84625F1FB4F67000482FE4 /* PinPointReorderSandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84625E1FB4F67000482FE4 /* PinPointReorderSandboxTests.swift */; };
+		BF84626A1FB4F67000482FE4 /* PinPointReorderSandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8462691FB4F67000482FE4 /* PinPointReorderSandboxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF84625B1FB4F67000482FE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF84623E1FB4F67000482FE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF8462451FB4F67000482FE4;
+			remoteInfo = PinPointReorderSandbox;
+		};
+		BF8462661FB4F67000482FE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF84623E1FB4F67000482FE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF8462451FB4F67000482FE4;
+			remoteInfo = PinPointReorderSandbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF8462461FB4F67000482FE4 /* PinPointReorderSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinPointReorderSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8462491FB4F67000482FE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF84624B1FB4F67000482FE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF84624E1FB4F67000482FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF8462501FB4F67000482FE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF8462531FB4F67000482FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF8462551FB4F67000482FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF84625A1FB4F67000482FE4 /* PinPointReorderSandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinPointReorderSandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF84625E1FB4F67000482FE4 /* PinPointReorderSandboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPointReorderSandboxTests.swift; sourceTree = "<group>"; };
+		BF8462601FB4F67000482FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8462651FB4F67000482FE4 /* PinPointReorderSandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinPointReorderSandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8462691FB4F67000482FE4 /* PinPointReorderSandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPointReorderSandboxUITests.swift; sourceTree = "<group>"; };
+		BF84626B1FB4F67000482FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF8462431FB4F67000482FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8462571FB4F67000482FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8462621FB4F67000482FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF84623D1FB4F67000482FE4 = {
+			isa = PBXGroup;
+			children = (
+				BF8462481FB4F67000482FE4 /* PinPointReorderSandbox */,
+				BF84625D1FB4F67000482FE4 /* PinPointReorderSandboxTests */,
+				BF8462681FB4F67000482FE4 /* PinPointReorderSandboxUITests */,
+				BF8462471FB4F67000482FE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF8462471FB4F67000482FE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF8462461FB4F67000482FE4 /* PinPointReorderSandbox.app */,
+				BF84625A1FB4F67000482FE4 /* PinPointReorderSandboxTests.xctest */,
+				BF8462651FB4F67000482FE4 /* PinPointReorderSandboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF8462481FB4F67000482FE4 /* PinPointReorderSandbox */ = {
+			isa = PBXGroup;
+			children = (
+				BF8462491FB4F67000482FE4 /* AppDelegate.swift */,
+				BF84624B1FB4F67000482FE4 /* ViewController.swift */,
+				BF84624D1FB4F67000482FE4 /* Main.storyboard */,
+				BF8462501FB4F67000482FE4 /* Assets.xcassets */,
+				BF8462521FB4F67000482FE4 /* LaunchScreen.storyboard */,
+				BF8462551FB4F67000482FE4 /* Info.plist */,
+			);
+			path = PinPointReorderSandbox;
+			sourceTree = "<group>";
+		};
+		BF84625D1FB4F67000482FE4 /* PinPointReorderSandboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF84625E1FB4F67000482FE4 /* PinPointReorderSandboxTests.swift */,
+				BF8462601FB4F67000482FE4 /* Info.plist */,
+			);
+			path = PinPointReorderSandboxTests;
+			sourceTree = "<group>";
+		};
+		BF8462681FB4F67000482FE4 /* PinPointReorderSandboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF8462691FB4F67000482FE4 /* PinPointReorderSandboxUITests.swift */,
+				BF84626B1FB4F67000482FE4 /* Info.plist */,
+			);
+			path = PinPointReorderSandboxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF8462451FB4F67000482FE4 /* PinPointReorderSandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF84626E1FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "PinPointReorderSandbox" */;
+			buildPhases = (
+				BF8462421FB4F67000482FE4 /* Sources */,
+				BF8462431FB4F67000482FE4 /* Frameworks */,
+				BF8462441FB4F67000482FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinPointReorderSandbox;
+			productName = PinPointReorderSandbox;
+			productReference = BF8462461FB4F67000482FE4 /* PinPointReorderSandbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF8462591FB4F67000482FE4 /* PinPointReorderSandboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8462711FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "PinPointReorderSandboxTests" */;
+			buildPhases = (
+				BF8462561FB4F67000482FE4 /* Sources */,
+				BF8462571FB4F67000482FE4 /* Frameworks */,
+				BF8462581FB4F67000482FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF84625C1FB4F67000482FE4 /* PBXTargetDependency */,
+			);
+			name = PinPointReorderSandboxTests;
+			productName = PinPointReorderSandboxTests;
+			productReference = BF84625A1FB4F67000482FE4 /* PinPointReorderSandboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF8462641FB4F67000482FE4 /* PinPointReorderSandboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8462741FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "PinPointReorderSandboxUITests" */;
+			buildPhases = (
+				BF8462611FB4F67000482FE4 /* Sources */,
+				BF8462621FB4F67000482FE4 /* Frameworks */,
+				BF8462631FB4F67000482FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF8462671FB4F67000482FE4 /* PBXTargetDependency */,
+			);
+			name = PinPointReorderSandboxUITests;
+			productName = PinPointReorderSandboxUITests;
+			productReference = BF8462651FB4F67000482FE4 /* PinPointReorderSandboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF84623E1FB4F67000482FE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = KurtMcIntire;
+				TargetAttributes = {
+					BF8462451FB4F67000482FE4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BF8462591FB4F67000482FE4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF8462451FB4F67000482FE4;
+					};
+					BF8462641FB4F67000482FE4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF8462451FB4F67000482FE4;
+					};
+				};
+			};
+			buildConfigurationList = BF8462411FB4F67000482FE4 /* Build configuration list for PBXProject "PinPointReorderSandbox" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF84623D1FB4F67000482FE4;
+			productRefGroup = BF8462471FB4F67000482FE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF8462451FB4F67000482FE4 /* PinPointReorderSandbox */,
+				BF8462591FB4F67000482FE4 /* PinPointReorderSandboxTests */,
+				BF8462641FB4F67000482FE4 /* PinPointReorderSandboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF8462441FB4F67000482FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8462541FB4F67000482FE4 /* LaunchScreen.storyboard in Resources */,
+				BF8462511FB4F67000482FE4 /* Assets.xcassets in Resources */,
+				BF84624F1FB4F67000482FE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8462581FB4F67000482FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8462631FB4F67000482FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF8462421FB4F67000482FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF84624C1FB4F67000482FE4 /* ViewController.swift in Sources */,
+				BF84624A1FB4F67000482FE4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8462561FB4F67000482FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF84625F1FB4F67000482FE4 /* PinPointReorderSandboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8462611FB4F67000482FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF84626A1FB4F67000482FE4 /* PinPointReorderSandboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF84625C1FB4F67000482FE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF8462451FB4F67000482FE4 /* PinPointReorderSandbox */;
+			targetProxy = BF84625B1FB4F67000482FE4 /* PBXContainerItemProxy */;
+		};
+		BF8462671FB4F67000482FE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF8462451FB4F67000482FE4 /* PinPointReorderSandbox */;
+			targetProxy = BF8462661FB4F67000482FE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF84624D1FB4F67000482FE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF84624E1FB4F67000482FE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF8462521FB4F67000482FE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF8462531FB4F67000482FE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF84626C1FB4F67000482FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF84626D1FB4F67000482FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF84626F1FB4F67000482FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 548YCQ829N;
+				INFOPLIST_FILE = PinPointReorderSandbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vektordigital.com.PinPointReorderSandbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF8462701FB4F67000482FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 548YCQ829N;
+				INFOPLIST_FILE = PinPointReorderSandbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vektordigital.com.PinPointReorderSandbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF8462721FB4F67000482FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 548YCQ829N;
+				INFOPLIST_FILE = PinPointReorderSandboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vektordigital.com.PinPointReorderSandboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinPointReorderSandbox.app/PinPointReorderSandbox";
+			};
+			name = Debug;
+		};
+		BF8462731FB4F67000482FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 548YCQ829N;
+				INFOPLIST_FILE = PinPointReorderSandboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vektordigital.com.PinPointReorderSandboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinPointReorderSandbox.app/PinPointReorderSandbox";
+			};
+			name = Release;
+		};
+		BF8462751FB4F67000482FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 548YCQ829N;
+				INFOPLIST_FILE = PinPointReorderSandboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vektordigital.com.PinPointReorderSandboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinPointReorderSandbox;
+			};
+			name = Debug;
+		};
+		BF8462761FB4F67000482FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 548YCQ829N;
+				INFOPLIST_FILE = PinPointReorderSandboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vektordigital.com.PinPointReorderSandboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinPointReorderSandbox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF8462411FB4F67000482FE4 /* Build configuration list for PBXProject "PinPointReorderSandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF84626C1FB4F67000482FE4 /* Debug */,
+				BF84626D1FB4F67000482FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF84626E1FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "PinPointReorderSandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF84626F1FB4F67000482FE4 /* Debug */,
+				BF8462701FB4F67000482FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8462711FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "PinPointReorderSandboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8462721FB4F67000482FE4 /* Debug */,
+				BF8462731FB4F67000482FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8462741FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "PinPointReorderSandboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8462751FB4F67000482FE4 /* Debug */,
+				BF8462761FB4F67000482FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF84623E1FB4F67000482FE4 /* Project object */;
+}
