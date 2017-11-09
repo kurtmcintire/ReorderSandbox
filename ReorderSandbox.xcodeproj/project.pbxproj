@@ -14,6 +14,7 @@
 		BF8462541FB4F67000482FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8462521FB4F67000482FE4 /* LaunchScreen.storyboard */; };
 		BF84625F1FB4F67000482FE4 /* PinPointReorderSandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84625E1FB4F67000482FE4 /* PinPointReorderSandboxTests.swift */; };
 		BF84626A1FB4F67000482FE4 /* PinPointReorderSandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8462691FB4F67000482FE4 /* PinPointReorderSandboxUITests.swift */; };
+		BF8462781FB4F6EC00482FE4 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8462771FB4F6EC00482FE4 /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BF8462651FB4F67000482FE4 /* PinPointReorderSandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinPointReorderSandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8462691FB4F67000482FE4 /* PinPointReorderSandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPointReorderSandboxUITests.swift; sourceTree = "<group>"; };
 		BF84626B1FB4F67000482FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8462771FB4F6EC00482FE4 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				BF8462491FB4F67000482FE4 /* AppDelegate.swift */,
 				BF84624B1FB4F67000482FE4 /* ViewController.swift */,
 				BF84624D1FB4F67000482FE4 /* Main.storyboard */,
+				BF8462771FB4F6EC00482FE4 /* CustomCollectionViewCell.swift */,
 				BF8462501FB4F67000482FE4 /* Assets.xcassets */,
 				BF8462521FB4F67000482FE4 /* LaunchScreen.storyboard */,
 				BF8462551FB4F67000482FE4 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF84624C1FB4F67000482FE4 /* ViewController.swift in Sources */,
+				BF8462781FB4F6EC00482FE4 /* CustomCollectionViewCell.swift in Sources */,
 				BF84624A1FB4F67000482FE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
