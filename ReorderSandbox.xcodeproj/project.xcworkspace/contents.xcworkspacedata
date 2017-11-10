@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PinPointReorderSandbox.xcodeproj">
+      location = "self:/Users/kurtmcintire/Documents/Repository.nosync/PinPointReorderSandbox/ReorderSandbox.xcodeproj">
    </FileRef>
 </Workspace>

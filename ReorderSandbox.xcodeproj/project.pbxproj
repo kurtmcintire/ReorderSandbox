@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF15925B1FB51BCF0048FAC1 /* CustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15925A1FB51BCF0048FAC1 /* CustomFlowLayout.swift */; };
+		BF15925D1FB60D800048FAC1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15925C1FB60D800048FAC1 /* TableViewController.swift */; };
+		BF15925F1FB60FAC0048FAC1 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15925E1FB60FAC0048FAC1 /* TableCell.swift */; };
 		BF84624A1FB4F67000482FE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8462491FB4F67000482FE4 /* AppDelegate.swift */; };
 		BF84624C1FB4F67000482FE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84624B1FB4F67000482FE4 /* ViewController.swift */; };
 		BF84624F1FB4F67000482FE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF84624D1FB4F67000482FE4 /* Main.storyboard */; };
@@ -14,7 +17,7 @@
 		BF8462541FB4F67000482FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8462521FB4F67000482FE4 /* LaunchScreen.storyboard */; };
 		BF84625F1FB4F67000482FE4 /* PinPointReorderSandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84625E1FB4F67000482FE4 /* PinPointReorderSandboxTests.swift */; };
 		BF84626A1FB4F67000482FE4 /* PinPointReorderSandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8462691FB4F67000482FE4 /* PinPointReorderSandboxUITests.swift */; };
-		BF8462781FB4F6EC00482FE4 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8462771FB4F6EC00482FE4 /* CustomCollectionViewCell.swift */; };
+		BF8462781FB4F6EC00482FE4 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8462771FB4F6EC00482FE4 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +38,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF8462461FB4F67000482FE4 /* PinPointReorderSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinPointReorderSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF15925A1FB51BCF0048FAC1 /* CustomFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlowLayout.swift; sourceTree = "<group>"; };
+		BF15925C1FB60D800048FAC1 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BF15925E1FB60FAC0048FAC1 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		BF8462461FB4F67000482FE4 /* ReorderSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReorderSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8462491FB4F67000482FE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF84624B1FB4F67000482FE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF84624E1FB4F67000482FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF8462501FB4F67000482FE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF8462531FB4F67000482FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF8462551FB4F67000482FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF84625A1FB4F67000482FE4 /* PinPointReorderSandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinPointReorderSandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF84625A1FB4F67000482FE4 /* ReorderSandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReorderSandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF84625E1FB4F67000482FE4 /* PinPointReorderSandboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPointReorderSandboxTests.swift; sourceTree = "<group>"; };
 		BF8462601FB4F67000482FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF8462651FB4F67000482FE4 /* PinPointReorderSandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinPointReorderSandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8462651FB4F67000482FE4 /* ReorderSandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReorderSandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8462691FB4F67000482FE4 /* PinPointReorderSandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPointReorderSandboxUITests.swift; sourceTree = "<group>"; };
 		BF84626B1FB4F67000482FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF8462771FB4F6EC00482FE4 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF8462771FB4F6EC00482FE4 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +85,9 @@
 		BF84623D1FB4F67000482FE4 = {
 			isa = PBXGroup;
 			children = (
-				BF8462481FB4F67000482FE4 /* PinPointReorderSandbox */,
-				BF84625D1FB4F67000482FE4 /* PinPointReorderSandboxTests */,
-				BF8462681FB4F67000482FE4 /* PinPointReorderSandboxUITests */,
+				BF8462481FB4F67000482FE4 /* ReorderSandbox */,
+				BF84625D1FB4F67000482FE4 /* ReorderSandboxTests */,
+				BF8462681FB4F67000482FE4 /* ReorderSandboxUITests */,
 				BF8462471FB4F67000482FE4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,51 +95,54 @@
 		BF8462471FB4F67000482FE4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF8462461FB4F67000482FE4 /* PinPointReorderSandbox.app */,
-				BF84625A1FB4F67000482FE4 /* PinPointReorderSandboxTests.xctest */,
-				BF8462651FB4F67000482FE4 /* PinPointReorderSandboxUITests.xctest */,
+				BF8462461FB4F67000482FE4 /* ReorderSandbox.app */,
+				BF84625A1FB4F67000482FE4 /* ReorderSandboxTests.xctest */,
+				BF8462651FB4F67000482FE4 /* ReorderSandboxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF8462481FB4F67000482FE4 /* PinPointReorderSandbox */ = {
+		BF8462481FB4F67000482FE4 /* ReorderSandbox */ = {
 			isa = PBXGroup;
 			children = (
 				BF8462491FB4F67000482FE4 /* AppDelegate.swift */,
 				BF84624B1FB4F67000482FE4 /* ViewController.swift */,
+				BF15925C1FB60D800048FAC1 /* TableViewController.swift */,
 				BF84624D1FB4F67000482FE4 /* Main.storyboard */,
-				BF8462771FB4F6EC00482FE4 /* CustomCollectionViewCell.swift */,
+				BF8462771FB4F6EC00482FE4 /* CustomCell.swift */,
+				BF15925E1FB60FAC0048FAC1 /* TableCell.swift */,
+				BF15925A1FB51BCF0048FAC1 /* CustomFlowLayout.swift */,
 				BF8462501FB4F67000482FE4 /* Assets.xcassets */,
 				BF8462521FB4F67000482FE4 /* LaunchScreen.storyboard */,
 				BF8462551FB4F67000482FE4 /* Info.plist */,
 			);
-			path = PinPointReorderSandbox;
+			path = ReorderSandbox;
 			sourceTree = "<group>";
 		};
-		BF84625D1FB4F67000482FE4 /* PinPointReorderSandboxTests */ = {
+		BF84625D1FB4F67000482FE4 /* ReorderSandboxTests */ = {
 			isa = PBXGroup;
 			children = (
 				BF84625E1FB4F67000482FE4 /* PinPointReorderSandboxTests.swift */,
 				BF8462601FB4F67000482FE4 /* Info.plist */,
 			);
-			path = PinPointReorderSandboxTests;
+			path = ReorderSandboxTests;
 			sourceTree = "<group>";
 		};
-		BF8462681FB4F67000482FE4 /* PinPointReorderSandboxUITests */ = {
+		BF8462681FB4F67000482FE4 /* ReorderSandboxUITests */ = {
 			isa = PBXGroup;
 			children = (
 				BF8462691FB4F67000482FE4 /* PinPointReorderSandboxUITests.swift */,
 				BF84626B1FB4F67000482FE4 /* Info.plist */,
 			);
-			path = PinPointReorderSandboxUITests;
+			path = ReorderSandboxUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF8462451FB4F67000482FE4 /* PinPointReorderSandbox */ = {
+		BF8462451FB4F67000482FE4 /* ReorderSandbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF84626E1FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "PinPointReorderSandbox" */;
+			buildConfigurationList = BF84626E1FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "ReorderSandbox" */;
 			buildPhases = (
 				BF8462421FB4F67000482FE4 /* Sources */,
 				BF8462431FB4F67000482FE4 /* Frameworks */,
@@ -143,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = PinPointReorderSandbox;
+			name = ReorderSandbox;
 			productName = PinPointReorderSandbox;
-			productReference = BF8462461FB4F67000482FE4 /* PinPointReorderSandbox.app */;
+			productReference = BF8462461FB4F67000482FE4 /* ReorderSandbox.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF8462591FB4F67000482FE4 /* PinPointReorderSandboxTests */ = {
+		BF8462591FB4F67000482FE4 /* ReorderSandboxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF8462711FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "PinPointReorderSandboxTests" */;
+			buildConfigurationList = BF8462711FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "ReorderSandboxTests" */;
 			buildPhases = (
 				BF8462561FB4F67000482FE4 /* Sources */,
 				BF8462571FB4F67000482FE4 /* Frameworks */,
@@ -161,14 +170,14 @@
 			dependencies = (
 				BF84625C1FB4F67000482FE4 /* PBXTargetDependency */,
 			);
-			name = PinPointReorderSandboxTests;
+			name = ReorderSandboxTests;
 			productName = PinPointReorderSandboxTests;
-			productReference = BF84625A1FB4F67000482FE4 /* PinPointReorderSandboxTests.xctest */;
+			productReference = BF84625A1FB4F67000482FE4 /* ReorderSandboxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BF8462641FB4F67000482FE4 /* PinPointReorderSandboxUITests */ = {
+		BF8462641FB4F67000482FE4 /* ReorderSandboxUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF8462741FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "PinPointReorderSandboxUITests" */;
+			buildConfigurationList = BF8462741FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "ReorderSandboxUITests" */;
 			buildPhases = (
 				BF8462611FB4F67000482FE4 /* Sources */,
 				BF8462621FB4F67000482FE4 /* Frameworks */,
@@ -179,9 +188,9 @@
 			dependencies = (
 				BF8462671FB4F67000482FE4 /* PBXTargetDependency */,
 			);
-			name = PinPointReorderSandboxUITests;
+			name = ReorderSandboxUITests;
 			productName = PinPointReorderSandboxUITests;
-			productReference = BF8462651FB4F67000482FE4 /* PinPointReorderSandboxUITests.xctest */;
+			productReference = BF8462651FB4F67000482FE4 /* ReorderSandboxUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF8462411FB4F67000482FE4 /* Build configuration list for PBXProject "PinPointReorderSandbox" */;
+			buildConfigurationList = BF8462411FB4F67000482FE4 /* Build configuration list for PBXProject "ReorderSandbox" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +232,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF8462451FB4F67000482FE4 /* PinPointReorderSandbox */,
-				BF8462591FB4F67000482FE4 /* PinPointReorderSandboxTests */,
-				BF8462641FB4F67000482FE4 /* PinPointReorderSandboxUITests */,
+				BF8462451FB4F67000482FE4 /* ReorderSandbox */,
+				BF8462591FB4F67000482FE4 /* ReorderSandboxTests */,
+				BF8462641FB4F67000482FE4 /* ReorderSandboxUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF15925F1FB60FAC0048FAC1 /* TableCell.swift in Sources */,
 				BF84624C1FB4F67000482FE4 /* ViewController.swift in Sources */,
-				BF8462781FB4F6EC00482FE4 /* CustomCollectionViewCell.swift in Sources */,
+				BF8462781FB4F6EC00482FE4 /* CustomCell.swift in Sources */,
+				BF15925B1FB51BCF0048FAC1 /* CustomFlowLayout.swift in Sources */,
+				BF15925D1FB60D800048FAC1 /* TableViewController.swift in Sources */,
 				BF84624A1FB4F67000482FE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,12 +301,12 @@
 /* Begin PBXTargetDependency section */
 		BF84625C1FB4F67000482FE4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF8462451FB4F67000482FE4 /* PinPointReorderSandbox */;
+			target = BF8462451FB4F67000482FE4 /* ReorderSandbox */;
 			targetProxy = BF84625B1FB4F67000482FE4 /* PBXContainerItemProxy */;
 		};
 		BF8462671FB4F67000482FE4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF8462451FB4F67000482FE4 /* PinPointReorderSandbox */;
+			target = BF8462451FB4F67000482FE4 /* ReorderSandbox */;
 			targetProxy = BF8462661FB4F67000482FE4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -432,9 +444,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 548YCQ829N;
-				INFOPLIST_FILE = PinPointReorderSandbox/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ReorderSandbox/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vektordigital.com.PinPointReorderSandbox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vektordigital.com.ReorderSandbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,9 +459,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 548YCQ829N;
-				INFOPLIST_FILE = PinPointReorderSandbox/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ReorderSandbox/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vektordigital.com.PinPointReorderSandbox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vektordigital.com.ReorderSandbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,7 +481,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinPointReorderSandbox.app/PinPointReorderSandbox";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReorderSandbox.app/ReorderSandbox";
 			};
 			name = Debug;
 		};
@@ -486,7 +498,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinPointReorderSandbox.app/PinPointReorderSandbox";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReorderSandbox.app/ReorderSandbox";
 			};
 			name = Release;
 		};
@@ -525,7 +537,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF8462411FB4F67000482FE4 /* Build configuration list for PBXProject "PinPointReorderSandbox" */ = {
+		BF8462411FB4F67000482FE4 /* Build configuration list for PBXProject "ReorderSandbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF84626C1FB4F67000482FE4 /* Debug */,
@@ -534,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF84626E1FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "PinPointReorderSandbox" */ = {
+		BF84626E1FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "ReorderSandbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF84626F1FB4F67000482FE4 /* Debug */,
@@ -543,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF8462711FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "PinPointReorderSandboxTests" */ = {
+		BF8462711FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "ReorderSandboxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF8462721FB4F67000482FE4 /* Debug */,
@@ -552,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF8462741FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "PinPointReorderSandboxUITests" */ = {
+		BF8462741FB4F67000482FE4 /* Build configuration list for PBXNativeTarget "ReorderSandboxUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF8462751FB4F67000482FE4 /* Debug */,
