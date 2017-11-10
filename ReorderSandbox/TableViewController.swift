@@ -10,8 +10,6 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
-    
-    
     var dataSource: [String] = ["They've been solid! I want to buy some more but waiting for approval from the other half.",
                              "BTC is going through a correction this morning. I'll be ready if ETH drops below 290 again. Same goes for sub 53 LTC, but LTC looks like it's holding much stronger against the BTC drop than ETH.",
                              "Yeah, for sure. I still hold strong that next May all three will be 2-5x what they are now.",

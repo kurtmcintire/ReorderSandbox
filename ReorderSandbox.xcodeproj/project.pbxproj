@@ -10,6 +10,8 @@
 		BF15925B1FB51BCF0048FAC1 /* CustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15925A1FB51BCF0048FAC1 /* CustomFlowLayout.swift */; };
 		BF15925D1FB60D800048FAC1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15925C1FB60D800048FAC1 /* TableViewController.swift */; };
 		BF15925F1FB60FAC0048FAC1 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15925E1FB60FAC0048FAC1 /* TableCell.swift */; };
+		BF1592611FB616830048FAC1 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1592601FB616830048FAC1 /* CollectionViewController.swift */; };
+		BF1592631FB617370048FAC1 /* ResizingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1592621FB617370048FAC1 /* ResizingCollectionViewCell.swift */; };
 		BF84624A1FB4F67000482FE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8462491FB4F67000482FE4 /* AppDelegate.swift */; };
 		BF84624C1FB4F67000482FE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84624B1FB4F67000482FE4 /* ViewController.swift */; };
 		BF84624F1FB4F67000482FE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF84624D1FB4F67000482FE4 /* Main.storyboard */; };
@@ -41,6 +43,8 @@
 		BF15925A1FB51BCF0048FAC1 /* CustomFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlowLayout.swift; sourceTree = "<group>"; };
 		BF15925C1FB60D800048FAC1 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		BF15925E1FB60FAC0048FAC1 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		BF1592601FB616830048FAC1 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		BF1592621FB617370048FAC1 /* ResizingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizingCollectionViewCell.swift; sourceTree = "<group>"; };
 		BF8462461FB4F67000482FE4 /* ReorderSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReorderSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8462491FB4F67000482FE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF84624B1FB4F67000482FE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,9 +112,11 @@
 				BF8462491FB4F67000482FE4 /* AppDelegate.swift */,
 				BF84624B1FB4F67000482FE4 /* ViewController.swift */,
 				BF15925C1FB60D800048FAC1 /* TableViewController.swift */,
+				BF1592601FB616830048FAC1 /* CollectionViewController.swift */,
 				BF84624D1FB4F67000482FE4 /* Main.storyboard */,
 				BF8462771FB4F6EC00482FE4 /* CustomCell.swift */,
 				BF15925E1FB60FAC0048FAC1 /* TableCell.swift */,
+				BF1592621FB617370048FAC1 /* ResizingCollectionViewCell.swift */,
 				BF15925A1FB51BCF0048FAC1 /* CustomFlowLayout.swift */,
 				BF8462501FB4F67000482FE4 /* Assets.xcassets */,
 				BF8462521FB4F67000482FE4 /* LaunchScreen.storyboard */,
@@ -273,8 +279,10 @@
 			files = (
 				BF15925F1FB60FAC0048FAC1 /* TableCell.swift in Sources */,
 				BF84624C1FB4F67000482FE4 /* ViewController.swift in Sources */,
+				BF1592631FB617370048FAC1 /* ResizingCollectionViewCell.swift in Sources */,
 				BF8462781FB4F6EC00482FE4 /* CustomCell.swift in Sources */,
 				BF15925B1FB51BCF0048FAC1 /* CustomFlowLayout.swift in Sources */,
+				BF1592611FB616830048FAC1 /* CollectionViewController.swift in Sources */,
 				BF15925D1FB60D800048FAC1 /* TableViewController.swift in Sources */,
 				BF84624A1FB4F67000482FE4 /* AppDelegate.swift in Sources */,
 			);
